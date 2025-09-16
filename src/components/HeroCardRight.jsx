@@ -123,35 +123,35 @@ const HeroCardRight = () => {
 
             <div className="flex flex-wrap gap-3 mt-2">
               <p className=" font-medium cursor-pointer">
-                {" "}
+         
                 <span className="text-purple-500">#</span> Entertainment
               </p>
               <p className=" font-medium cursor-pointer">
-                {" "}
+             
                 <span className="text-orange-500">#</span> Gadget
               </p>
               <p className="font-medium cursor-pointer">
-                {" "}
+          
                 <span className="text-blue-500 ">#</span> Ideas
               </p>
               <p className=" font-medium cursor-pointer">
-                {" "}
+          
                 <span className="text-green-500">#</span> Inspiration
               </p>
               <p className=" font-medium cursor-pointer">
-                {" "}
+         
                 <span className="text-yellow-500">#</span> Lifestyle
               </p>
               <p className=" font-medium cursor-pointer">
-                {" "}
+           
                 <span className="text-red-500">#</span> Music
               </p>
               <p className=" font-medium cursor-pointer">
-                {" "}
+         
                 <span className="text-indigo-500">#</span> Travel
               </p>
               <p className=" font-medium cursor-pointer">
-                {" "}
+            
                 <span className="text-pink-500">#</span> Trending
               </p>
             </div>
