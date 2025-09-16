@@ -4,17 +4,17 @@ import { IoMdTime } from "react-icons/io";
 
 const HeroLeftCard = ({ blog }) => {
   return (
-    <div className="bg-white shadow-xl rounded-2xl py-10 mt-20">
+    <div className="bg-white shadow-md rounded-2xl py-5 my-12">
       <div className="flex mx-10 gap-5">
         <div className="w-[20%]">
           <img
             src={blog.image}
             alt={blog.alt}
-            className="w-[178px] h-[170px] rounded-2xl"
+            className="w-[178px] h-[170px] mt-3 rounded-2xl"
           />
         </div>
         <div className="w-[80%]">
-          <h3 className="font-bold text-[30px]">{blog.title}</h3>
+          <h3 className="font-medium text-[30px]">{blog.title}</h3>
           <div className="flex items-center gap-8 mt-3">
             <p>{blog.shortDesc}</p>
             <p>

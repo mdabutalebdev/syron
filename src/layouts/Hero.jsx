@@ -12,14 +12,14 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="bg-[#F5F5FA] py-10">
+    <div className="bg-[#F5F5FA] py-15">
       <div className="flex gap-20 container mx-auto">
-        <div className="container mx-auto w-[65%]">
+        <div className="container mx-auto w-[70%]">
         {blogs.map((blog) => (
           <HeroLeftCard key={blog.id} blog={blog} />
         ))}
       </div>
-      <div className="w-[35%]">
+      <div className="w-[30%]">
         <HeroCardRight/>
       </div>
       </div>
